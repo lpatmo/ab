@@ -300,8 +300,8 @@ header .intro-text .intro-heading {
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 300px;
-        padding-bottom: 200px;
+        padding-top: 200px;
+        padding-bottom: 125px;
     }
 
     header .intro-text .intro-lead-in {
@@ -746,4 +746,8 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #fed136;
 }
+
+#submit-goals label { float: left; margin-right: 15px; font-size: 1.2em; width: 150px; text-align: left; padding: 10px; background: rgba(0,0,0,0.8);}
+#submit-goals input[type="date"], input[type="number"] { width: 20%;}
+#submit-goals input[type="text"],  #submit-goals textarea { width: 80%;}
 

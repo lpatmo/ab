@@ -8,3 +8,9 @@ meteor-platform
 insecure
 mizzao:bootstrap-3
 iron:router
+natestrauser:font-awesome
+aldeed:simple-schema
+aldeed:autoform
+tsega:bootstrap3-datetimepicker
+aldeed:collection2
+rajit:bootstrap3-datepicker
