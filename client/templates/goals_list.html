@@ -1,23 +1,17 @@
 <template name="goalsList">
   
  <div class="row text-center">
+ 		{{#if goals}}
+ 		{{#each goals}}
                 <div class="col-md-4">
-                    
-                    <h4 class="service-heading">Goal 1</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                  	<h4 class="service-heading">{{goal}}</h4>
+                    <p class="text-muted">{{description}}</p>
+                    <p>Start:{{startDate}}</p>
+                    <p>End: {{endDate}}</p>
+                    <p>All pledges will be donated to: {{cause}}</p>
                 </div>
-                <div class="col-md-4">
-                    <h4 class="service-heading">GOal 2</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                </div>
-                <div class="col-md-4">
-                    <h4 class="service-heading">Web Security</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                </div>
-                 <div class="col-md-4">
-                    <h4 class="service-heading">Web Security</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                </div>
+        {{/each}}
+        {{/if}}
 </div>
 
 
