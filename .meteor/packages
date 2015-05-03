@@ -20,3 +20,5 @@ meteorhacks:npm
 
 npm-container
 manuelschoebel:wait-on-lib
+accounts-ui
+accounts-twitter
