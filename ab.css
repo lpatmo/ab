@@ -16,7 +16,7 @@ body {
 }
 
 .text-primary {
-    color: #fed136;
+    color: #00a566;
 }
 
 p {
@@ -37,14 +37,14 @@ a.active {
 }
 
 a {
-    color: #fed136;
+    color: #00a566;
 }
 
 a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #fec503;
+    color: #00a566;
 }
 
 h1,
@@ -77,12 +77,12 @@ p.cause { text-transform: uppercase; font-size: 1.2em;}
 }
 
 .btn-primary {
-    border-color: #fed136;
+    border-color: #00a566;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #fff;
-    background-color: #fed136;
+    background-color: #00a566;
 }
 
 .btn-primary:hover,
@@ -92,7 +92,7 @@ p.cause { text-transform: uppercase; font-size: 1.2em;}
 .open .dropdown-toggle.btn-primary {
     border-color: #f6bf01;
     color: #fff;
-    background-color: #fec503;
+    background-color: #00a566;
 }
 
 .btn-primary:active,
@@ -116,25 +116,25 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color: #00a566;
+    background-color: #00a566;
 }
 
 .btn-primary .badge {
-    color: #fed136;
+    color: #00a566;
     background-color: #fff;
 }
 
 .btn-xl {
     padding: 20px 40px;
-    border-color: #fed136;
+    border-color: #00a566;
     border-radius: 3px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: #fff;
-    background-color: #fed136;
+    background-color: #00a566;
 }
 
 .btn-xl:hover,
@@ -144,7 +144,7 @@ fieldset[disabled] .btn-primary.active {
 .open .dropdown-toggle.btn-xl {
     border-color: #f6bf01;
     color: #fff;
-    background-color: #fec503;
+    background-color: #00a566;
 }
 
 .btn-xl:active,
@@ -168,12 +168,12 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color: #00a566;
+    background-color: #00a566;
 }
 
 .btn-xl .badge {
-    color: #fed136;
+    color: #00a566;
     background-color: #fff;
 }
 
@@ -184,14 +184,14 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #fed136;
+    color: #00a566;
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #fec503;
+    color: #00a566;
 }
 
 .navbar-default .navbar-collapse {
@@ -199,8 +199,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color: #00a566;
+    background-color: #00a566;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -209,7 +209,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #fed136;
+    background-color: #00a566;
 }
 
 .navbar-default .nav li a {
@@ -223,19 +223,19 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #fed136;
+    color: #00a566;
 }
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #fff;
-    background-color: #fed136;
+    background-color: #00a566;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
-    background-color: #fec503;
+    background-color: #00a566;
 }
 
 @media(min-width:768px) {
@@ -292,7 +292,8 @@ header .intro-text .intro-lead-in {
     font-size: 25px;
     line-height: 25px;
     background: rgba(0,0,0,0.8);
-    padding: 25px 10px;
+    padding: 25px 15px;
+    text-align: left;
 }
 
 header .intro-text .intro-heading {
@@ -314,7 +315,7 @@ header .intro-text .intro-heading {
         
         font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 30px;
-        line-height: 35px;
+        line-height: 50px;
     }
 
     header .intro-text .intro-heading {
@@ -342,7 +343,6 @@ section h3.section-subheading {
     text-transform: none;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
-    font-style: italic;
     font-weight: 400;
 }
 
@@ -356,6 +356,8 @@ section h3.section-subheading {
     margin: 15px 0;
     text-transform: none;
 }
+
+.section-subheading p { font-size: 25px; text-align: left;}
 
 #portfolio .portfolio-item {
     right: 0;
@@ -417,12 +419,7 @@ section h3.section-subheading {
     text-transform: none;
 }
 
-#portfolio .portfolio-item .portfolio-caption p {
-    margin: 0;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 16px;
-    font-style: italic;
-}
+
 
 #portfolio * {
     z-index: 2;
@@ -567,7 +564,7 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-    border-color: #fed136;
+    border-color: #00a566;
     box-shadow: none;
 }
 
@@ -645,7 +642,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-    background-color: #fed136;
+    background-color: #00a566;
 }
 
 .btn:focus,
@@ -675,12 +672,7 @@ ul.social-buttons li a:active {
     margin-bottom: 30px;
 }
 
-.portfolio-modal .modal-content p.item-intro {
-    margin: 20px 0 30px;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 16px;
-    font-style: italic;
-}
+
 
 .portfolio-modal .modal-content ul.list-inline {
     margin-top: 0;
@@ -733,12 +725,12 @@ ul.social-buttons li a:active {
 
 ::-moz-selection {
     text-shadow: none;
-    background: #fed136;
+    background: #00a566;
 }
 
 ::selection {
     text-shadow: none;
-    background: #fed136;
+    background: #00a566;
 }
 
 img::selection {
@@ -750,7 +742,7 @@ img::-moz-selection {
 }
 
 body {
-    webkit-tap-highlight-color: #fed136;
+    webkit-tap-highlight-color: #00a566;
 }
 
 #submit-goals label { float: left; margin-right: 15px; font-size: 1.2em; width: 150px; text-align: left; padding: 10px; background: rgba(0,0,0,0.8);}
@@ -768,7 +760,9 @@ p { overflow: auto;}
 
 footer a {color: #3b5998;}
 
-div#login-buttons { margin-top: 10px;}
+div#login-buttons { margin-top: 12px;}
 
 h4.service-heading { font-size: 30px; text-align: left;}
+
+a.slack { background: rgba(224,21,99,1.0); color: #fff; font-size: 30px; padding: 15px 30px;}
 
