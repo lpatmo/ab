@@ -769,4 +769,5 @@ div#login-buttons { margin-top: 12px;}
 h4.service-heading { font-size: 30px; text-align: left;}
 
 a.slack { background: rgba(224,21,99,1.0); color: #fff; font-size: 30px; padding: 15px 30px;}
+a.slack:hover { color: #fff;}
 
