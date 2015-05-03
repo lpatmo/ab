@@ -63,6 +63,8 @@ p.cause { text-transform: uppercase; font-size: 1.2em;}
 .goal-item { 
 	margin: 10px 0;
 }
+.goal-item a {text-decoration: underline;}
+.goal-item a:hover {text-decoration: none;}
 
 .img-centered {
     margin: 0 auto;
@@ -749,7 +751,7 @@ body {
 span.label { float: left; padding: 5px; font-size: 16px; background: rgba(0,0,0,0.8);}
 #submit-goals input[type="date"], input[type="number"] { width: 20%;}
 #submit-goals input[type="text"],  #submit-goals textarea { width: 80%;}
-p.cause { clear: both; margin-top: 10px;}
+p.cause { clear: both; margin-top: 10px; text-align: left;}
 p.text-muted { 
 	line-height: 1.1;  
 	 margin-bottom: 25px;
@@ -757,6 +759,8 @@ p.text-muted {
   font-size: 20px;}
 
 p { overflow: auto;}
+p.meta { text-align: left;}
+span.footnote { margin-top: 10px; display: block;}
 
 footer a {color: #3b5998;}
 
