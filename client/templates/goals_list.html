@@ -3,13 +3,17 @@
  <div class="row text-center">
  		{{#if goals}}
  		{{#each goals}}
-                <div class="col-md-4">
+                <div class="col-md-4 goal-item">
                   	<h4 class="service-heading">{{goal}}</h4>
                     <p class="text-muted">{{description}}</p>
-                    <p>Start:{{startDate}}</p>
-                    <p>End: {{endDate}}</p>
-                    <p>All pledges will be donated to: {{cause}}</p>
+                    <p><span class="label">Start:</span> {{start}}</p>
+                    <p><span class="label">Goal Deadline:</span> {{end}}</p>
+                    <p><span class="label">All pledges will be donated to:</span></p>
+                    <p class="cause">{{cause}}</p>
+                    <a class="btn btn-primary">Get help</a>
+                    <a class="btn btn-primary" href="/pledge">Support this goal</a>
                 </div>
+
         {{/each}}
         {{/if}}
 </div>

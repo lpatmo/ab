@@ -14,3 +14,9 @@ aldeed:autoform
 tsega:bootstrap3-datetimepicker
 aldeed:collection2
 rajit:bootstrap3-datepicker
+mrt:moment
+meteorhacks:npm
+
+
+npm-container
+manuelschoebel:wait-on-lib

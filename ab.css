@@ -58,6 +58,12 @@ h6 {
     font-weight: 700;
 }
 
+p.cause { text-transform: uppercase; font-size: 1.2em;}
+
+.goal-item { 
+	margin: 10px 0;
+}
+
 .img-centered {
     margin: 0 auto;
 }
@@ -266,7 +272,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(//download.unsplash.com/photo-1422479516648-9b1f0b6e8da8);
+    background-image: url(//ununsplash.imgix.net/photo-1418225043143-90858d2301b4?fit=crop&fm=jpg&h=700&q=75&w=1050);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -748,6 +754,17 @@ body {
 }
 
 #submit-goals label { float: left; margin-right: 15px; font-size: 1.2em; width: 150px; text-align: left; padding: 10px; background: rgba(0,0,0,0.8);}
+span.label { float: left; padding: 5px; font-size: 16px; background: rgba(0,0,0,0.8);}
 #submit-goals input[type="date"], input[type="number"] { width: 20%;}
 #submit-goals input[type="text"],  #submit-goals textarea { width: 80%;}
+p.cause { clear: both; margin-top: 10px;}
+p.text-muted { 
+	line-height: 1.1;  
+	 margin-bottom: 25px;
+  text-align: left;
+  font-size: 20px;}
+
+p { overflow: auto;}
+
+footer a {color: #3b5998;}
 

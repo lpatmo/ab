@@ -1,5 +1,6 @@
 if (Goals.find().count() === 0 ) {
-	Goals.insert({'goal': 'Harry Potter', 'start': 12, 'end': 14, 'description': 'J.K. Rowling', 'cause':'Harry Potter Alliance'});
-	Goals.insert({'goal': 'Harry Potter', 'start': 12, 'end': 13, 'description': 'J.K. Rowling', 'cause':'Harry Potter Alliance'});
-	Goals.insert({'goal': 'Harry Potter', 'start': 12, 'end': 15, 'description': 'J.K. Rowling', 'cause':'Harry Potter Alliance'});
+	Goals.insert({'goal': 'Finish Eloquent Javascript', 'start': 'Mon May 28 2015 12:00:00 GMT-0500 (EST)', 'end': 'Wed Dec 28 2015 19:00:00 GMT-0500 (EST)', 'description': 'I want to finish all the exercises from this book by the end of the month.', 'cause':'The Harry Potter Alliance'});
+	Goals.insert({'goal': 'Finish Learn Python the Hard Way', 'start': 'May Dec 28 2015 12:00:00 GMT-0500 (EST)', 'end': 'Wed Dec 28 2015 19:00:00 GMT-0500 (EST)', 'description': 'Goal: Learn python by working through http://learnpythonthehardway.org/', 'cause':'MoveOn.org'});
+	Goals.insert({'goal': 'Become competent at using Git', 'start': 'Mon May 28 2015 12:00:00 GMT-0500 (EST)', 'end': 'Wed Dec 28 2015 19:00:00 GMT-0500 (EST)', 'description': 'I want to learn how to use git to add, commit, push, and make pull requests to an open-sourced project.', 'cause':'The Mozilla Foundation'});
+	Goals.insert({'goal': 'Build my own meteorJS app from scratch for a social good cause', 'start': 'Mon June 12 2015 12:00:00 GMT-0500 (EST)', 'end': 'Wed June 28 2015 19:00:00 GMT-0500 (EST)', 'description': 'I want to learn how to use git to add, commit, push, and make pull requests to an open-sourced project.', 'cause':'The Mozilla Foundation'});
 }
