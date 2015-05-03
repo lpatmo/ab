@@ -63,7 +63,7 @@ p.cause { text-transform: uppercase; font-size: 1.2em;}
 .goal-item { 
 	margin: 10px 0;
 }
-.goal-item a {text-decoration: underline;}
+.goal-item a:not(.btn) {text-decoration: underline;}
 .goal-item a:hover {text-decoration: none;}
 
 .img-centered {
@@ -764,10 +764,13 @@ span.footnote { margin-top: 10px; display: block;}
 
 footer a {color: #3b5998;}
 
-div#login-buttons { margin-top: 12px;}
+div#login-buttons { margin-top: 17px;}
 
 h4.service-heading { font-size: 30px; text-align: left;}
 
 a.slack { background: rgba(224,21,99,1.0); color: #fff; font-size: 30px; padding: 15px 30px;}
 a.slack:hover { color: #fff;}
 
+.accounts-dialog { background: #000; color: #fff;}
+.accounts-dialog input { color: black;}
+.meta+h4 { text-align: left;}

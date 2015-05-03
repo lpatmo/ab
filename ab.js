@@ -19,12 +19,14 @@ if (Meteor.isClient) {
   getSimplify = function getSimplify() {
     Meteor.call('getSimplify');
   }
+
+
+
 }
 
 if (Meteor.isServer) {
-  Meteor.startup(function () {
-    // code to run on server at startup
-  });
+ 
+
   Meteor.methods({
     'getSimplify': function getSimplify() {
       var Simplify = Meteor.npmRequire('simplify-commerce');
@@ -41,7 +43,7 @@ if (Meteor.isServer) {
             }, function(errData, data){
              
                 if(errData){
-                    console.error("Error Message: " + errData.data.error.message);
+                    console.error("Error Message: " + errData.data.error.text);
                     // handle the error
                     return;
                 }
